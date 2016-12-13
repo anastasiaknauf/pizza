@@ -22,7 +22,6 @@
 <select ng-options="opt as opt.name for opt in ingredients" ng-model="currentIngredient"></select>
 {{currentIngredient}}
 <button ng-disabled="!currentIngredient" ng-click="AddIngredient()">Добавить</button>
-{{pizza}}
 <h3>{{TotalPrice()}}</h3>
 </body>
 </html>
